@@ -13,21 +13,18 @@ After you confirm that the server is running, you can now proceed with Postman( 
 Find below the specific requests and format to accomplish described tasks;
 
 **Adding New Company: POST request: "localhost:8280/api/company/"**
-First Header | Second Header
------------- | -------------
-Content from cell 1 | Content from cell 2
-Content in the first column | Content in the second column
+
 
         Request Body Field|Mandatory Value Types
         ----------------- | --------------------
-        name                                   String
-        rankings_financials                     Number
-        rankings_idea                          Number
-        num_employees                           Number
-        contact_email                           String
-        year_founded                            Number
-        rankings_team                           Number
-        contact_name                            String
+        name                       String
+        rankings_financials        Number
+        rankings_idea              Number
+        num_employees              Number
+        contact_email              String
+        year_founded               Number
+        rankings_team              Number
+        contact_name               String
 
 
 Please ensure that all the above body fields are input with corresponding values of the specified types.
@@ -56,8 +53,10 @@ Keep in mind that Companies with the same name cannot be added. If you try to yo
 
 **Deleting Company :  DELETE request: "localhost:8280/api/company/"**
 There's only one necessary body fields: the company name.
- Request Body                          Mandatory Value Types
-  name                                    String
+
+        Request Body Field|Mandatory Value Types
+        ----------------- | --------------------
+          name                       String
   
   
   

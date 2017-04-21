@@ -29,7 +29,7 @@ Find below the specific requests and format to accomplish described tasks;
 
 Please ensure that all the above body fields are input with corresponding values of the specified types.
 Sending in that Post request will return a Company Object like:
-
+```json
 {
   "success": true,
   "result": {
@@ -48,6 +48,7 @@ Sending in that Post request will return a Company Object like:
     }
   }
 }
+```
 
 Keep in mind that Companies with the same name cannot be added. If you try to you will receive a message asking that you try again with a different company name.
 

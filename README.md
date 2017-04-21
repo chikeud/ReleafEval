@@ -64,13 +64,13 @@ There's only one necessary body fields: the company name.
  **Get Company Info:**
  No field in the body. The request in this case is passed through the URL as a parameter. The queryname in the request below     represents whatever company name that was put when adding this company replacing all spaces with underscores. e.g if you're   trying to get the info for a company that had the name "Releaf Group", the queryname would be "Releaf_Group".
  
- GET request: "localhost:8280/api/company/queryname"
+ **GET request: "localhost:8280/api/company/queryname"**
  The company object much like the one in the example given in the adding company section will be returned.
  
  
  
  **Retrieve Collection of Companies based on n number of specified ranking statistic:**
- GET request: "localhost:8280/api/company/ranking_name/noOfCompanies"
+ **GET request: "localhost:8280/api/company/ranking_name/noOfCompanies"**
  No field in the body. The request in this case is passed through the URL as a parameter. The ranking_name in the request    above represents whatever ranking statistic the user is trying to find the highest n Companies.In this case, there are only three available ranking criteria ( "financials", "team", "idea"). So one of these will be in that 'ranking_name' position in the URL. noOfCompanies should simply be the maximum number of companies that the user will want to receive. It is of type Number. Please ensure no leading spaces are in URL before sending request. Example: If I'm trying to find out the highest 5 ranked companies based on 'financials' in my database. My URL will be "localhost:8280/api/company/financials/5". It would return an array of 5 (if there are up to 5 companies in database) Company Objects.
  
 

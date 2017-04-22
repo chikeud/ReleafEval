@@ -1,7 +1,7 @@
 # ReleafEval
 API that allows user to add company, update company info, delete company and request a user specified number of companies based on a user specified ranking criterion. No frontend implementation so API tester or request sending application such as Postman will be needed. Installation and setup information and specific requests to achieve each of the actions listed above will be explained in  further detail below. 
 
-**Note: **At this point, there are no comments in the code because of the nature of a time deadline set to this API. Comments will be added a soon as this task is reviewed and evaluated by the Releaf Team. I do not want to edit any of the documents after the deadline before the task is evaluated. 
+**Note:** At this point, there are no comments in the code because of the nature of a time deadline set to this API. Comments will be added a soon as this task is reviewed and evaluated by the Releaf Team. I do not want to edit any of the documents after the deadline before the task is evaluated. 
 
 Please follow the guidelines exactly as described below.
 

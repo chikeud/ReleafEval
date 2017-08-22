@@ -55,7 +55,7 @@ Sending in that Post request will return a Company Object like:
 Keep in mind that Companies with the same name cannot be added. If you try to you will receive a message asking that you try again with a different company name.
 
 **Deleting Company :  DELETE request: "localhost:8280/api/company/"**
-There's only one necessary body fields: the company name.
+There's only one necessary body field: the company name.
 
         Request Body Field|Mandatory Value Types
         ----------------- | --------------------
